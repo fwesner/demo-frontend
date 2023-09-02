@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Función para obtener y mostrar la lista de usuarios
   async function fetchUsers() {
     try {
-      const response = await fetch('/api/users');
+      const response = await fetch('https://demo-backend-5qs0-dev.fl0.io/api/users');
       if (!response.ok) {
         throw new Error('Error al obtener usuarios');
       }
